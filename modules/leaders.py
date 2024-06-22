@@ -64,9 +64,6 @@ class LeaderPortraits:
 
                                 # If entering a new folder, write the folder header
                                 if folder_name != current_folder:
-                                    if folder_started:
-                                        # Close previous folder's spriteTypes block
-                                        sprite_types_data += "\t}\n\n"
                                     sprite_types_data += f"\t### {folder_name.upper()}\n\n"
                                     folder_started = True
                                     current_folder = folder_name
