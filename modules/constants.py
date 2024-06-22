@@ -1,7 +1,7 @@
 # This file holds constants that are used throughout the project.
 
 __version__: str = "1.0.0"
-__repo_url__: str = "https://github.com/hoi4-modding-suite/hoi4-modding-suite"
+__repo_url__: str = "https://github.com/Official-Husko/hoi4-tools"
 
 
 # This is copied from the original hearts of iron iv game folder.
